@@ -1,0 +1,99 @@
+.Wehelpe{
+    background: rgb(227, 237, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    text-wrap: nowrap;
+}
+
+.btn{
+    text-decoration:none;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: background-color 2s ease;
+}
+
+.btn:hover{
+    background-color: rgb(4, 142, 160);
+    color: rgb(0, 0, 0);
+    border: none ;
+    transition: background-color 2s linear;
+}
+
+.btn__animation:hover{
+    animation: btn__animation 3s ease;
+    
+}
+
+.btn__left:hover{
+    transition: transform 1s linear;
+    transform: translateX(-25px);
+}
+
+@keyframes btn__animation {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+}
+
+.Quality{
+    background: black;
+    padding: 40px;
+    
+}
+
+.Growth{
+    background: rgb(69, 232, 238);
+    padding: 40px;
+}
+
+.Competitive{
+    background: rgb(111, 147, 148);
+    padding: 40px;
+}
+
+.Doing{
+    background: rgb(69, 232, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text__justify{
+    text-align: justify;
+}
+
+.icon{
+    position: absolute;
+}
+
+.card__item{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #22b2c5;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+
+.card__item svg{
+    padding: 2px;
+    
+}
+
+
+
+
